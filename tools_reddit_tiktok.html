@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/tools.css">
+    <link rel="icon" type="image/jpg" href="src/img/favicon.jpg"/>
+    <title>Tools - Reddit y Tiktok (busqueda social)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Búsqueda Social</h1> 
+        <a href="https://www.linkedin.com/in/franco-galan-def/" target="_blank"><img src="src/img/linke.png" alt="LinkedIn"></a>
+    
+    </header>
+    
+    <main class="principal">
+        <nav class="navegacion">
+            <li class="navegacion__item"><a href="index.html">Home</a></li>
+            <li class="navegacion__item"><a href="tools_ig_tw.html">Tools</a></li>
+        </nav>
+        <div class="divisor">
+            <section class="indice">
+                <h2 class="texto">Menú</h2><hr>
+                <ul>
+                    <li><a href="index.html">Información</a></li>
+                <li><a href="osint.html">Osint</a></li>
+                <li><a href="herramientas.html">Herramientas OSINT</a></li>
+                    <br>
+                </ul>
+                <h2 class="texto">Tools</h2><hr>
+                <ul class="toolsMenu">
+                    <li><a href="tools_ig_tw.html">Instagram & Twitter</a></li>
+                    <li><a href="tools_fb_email.html">Facebook & Emails</a></li>
+                    <li><a href="tools_linkedin_maps.html">LinkedIn & Maps</a></li>
+                    <li><a href="tools_reddit_tiktok.html">>> Reddit & TikTok</a></li>
+                    <li><a href="tools_motor_busqueda.html">Motores de búsqueda</a></li><br>
+                </ul>
+            </section>
+    <section class="contenido">
+        <!-----Reddit----->
+        <h2 class="texto">Herramienta de Búsqueda de Reddit.</h2><hr><br>
+        <form action="" method="" class="forms">
+
+    <div class="red_search">
+        <!---------Búsqueda Completa---------->
+        <div class="busqueda_completa">
+            <input type="text" id="autocompletarReddit" placeholder="Username" title="All"><button id="btn_autocompletar_reddit">Completar todo</button> <!--Boton All-->
+        </div>
+
+        <!--Nombre del usuario-->
+        <input type="text"  id="rdNombreUsuario" placeholder="Username" title=""><button id="btn_buscar_perfil_reddit" class="botones">Perfil</button><br>
+        <!--Google-->
+        <input type="text"  id="rdGoogle" placeholder="Busqueda" title=""><button id="btn_buscar_google_reddit" class="botones">Google</button><br>
+        <!--Buscador global por navegadores-->
+        <input type="text"  id="rdBuscadorGlobal" placeholder="Buscar publicacion/persona" title=""><button id="btn_buscador_global_reddit" class="botones">Buscador global</button><br>
+        <!--Persona especifica y publicacion-->
+        <input type="text"  id="rdNombreUsuario2" placeholder="Usuario" title=""><input type="text"  id="rdPublicacion" placeholder="Publicación" title=""><button id="btn_buscar_personaEspecifica_reddit" class="botones">Buscar</button><br>
+        <!--Brave-->
+       <input type="text"  id="rdsearchBrave" placeholder="Username" title=""><button id="btn_buscador_brave_reddit" class="botones">Brave</button><br> 
+
+        
+    </div></form>
+        <!-----Tiktok----->
+        <h2 class="texto">Herramienta de Búsqueda de Tiktok.</h2><hr><br>
+        <form action="" method="" class="forms">
+
+    <div class="red_search">
+        <!---------Búsqueda Completa---------->
+        <div class="busqueda_completa">
+            <input type="text" id="autocompletarTiktok" placeholder="Username" title="All"><button id="btn_autocompletar_Tiktok">Completar todo</button> <!--Boton All-->
+        </div>
+
+        <!--Nombre del usuario-->
+        <input type="text"  id="tktkNombreUsuario" placeholder="Username" title=""><button id="btn_buscar_perfil_tiktok" class="botones">Perfil</button><br>
+        <!--Nombre del usuario-->
+        <input type="text"  id="tktkNombreUsuarioPerfiles" placeholder="Username" title=""><button id="btn_buscar_perfiles_tiktok" class="botones">Buscar perfiles</button><br>
+        <!--Google-->
+        <input type="text"  id="tktkGoogle" placeholder="Busqueda" title=""><button id="btn_buscar_google_tiktok" class="botones">Google</button><br>
+        <!--Buscador global por navegadores-->
+        <input type="text"  id="tktkBuscadorGlobal" placeholder="Buscar persona" title=""><button id="btn_buscador_global_tiktok" class="botones">Buscador global</button><br>
+       <!--Brave-->
+       <input type="text"  id="tktksearchBrave" placeholder="Username" title=""><button id="btn_buscador_brave_tiktok" class="botones">Brave</button><br> 
+        
+
+        
+    </div></form>
+    </section>
+    </main>
+    <br>
+    <footer class="pie__pagina">
+        <p>Copyright © 2023 | All Rights Reserved | Privacy Policy</p>
+        <p>Franco Galan</p>
+        <br>
+    </footer>
+    <script src="src/js/all_input_tools_reddit_tiktok.js"></script>
+    <script src="src/js/botones_tools_reddit_tiktok.js"></script>
+</body>
+</html>
