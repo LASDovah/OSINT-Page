@@ -38,6 +38,6 @@
 **Perfil LinkedIn:** </br>
 `<LinkedIn>` : www.linkedin.com/in/franco-galan-def </br></br>
 **Link del sitio:**</br>
-`<BúsquedaSocial>` : https://franalc.github.io/OSINT-Page/ </br></br>
+`<BúsquedaSocial>` : https://lasdovah.github.io/OSINT-Page/ </br></br>
 **Sitio por el cuál me guié para aprender:** </br>
 `<IntelTechniques>` : https://inteltechniques.com/index.html </br>
